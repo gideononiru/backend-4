@@ -108,7 +108,7 @@ Lists add `pagination: { page, limit, total, pages }`.
 
 Full request and response details: [docs/api.md](docs/api.md).
 Real-time events: `payment:confirmed`, `payment:expired`,
-`transaction:completed`, `inventory:low` (Socket.IO, with the JWT in
+`transaction:completed`, `inventory:low`, `analytics:updated` (Socket.IO, with the JWT in
 `auth.token`).
 
 ## How a Stellar checkout works
@@ -173,3 +173,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Security reports go through
 ## License
 
 [MIT](LICENSE)
+
+## Payment Module Test Coverage\n\nThe payment module must reach at least 80% line coverage. Critical paths including payment creation, Stellar submission, status polling, and refund processing must each have both happy-path and error-path tests.
