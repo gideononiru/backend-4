@@ -173,3 +173,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Security reports go through
 ## License
 
 [MIT](LICENSE)
+
+<!-- fix: issue #198 - [TEST-014] Missing tests for merchant subscription tier changes -->
